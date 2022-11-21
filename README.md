@@ -1,4 +1,4 @@
-# @rbxts/imageservice
+# ImageService
 A lightweight module to store image ids for roblox-ts
 
 
