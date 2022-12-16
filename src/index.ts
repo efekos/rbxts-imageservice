@@ -1,14 +1,14 @@
-/**
- * An Image Service is to store image ids with names so you don't have to remember all ids every time.
- * 
- * Since it not saves the images to a global value (yet), it should be identified in a module and imported from there in every use.
- */
 const BadgeService = game.GetService("BadgeService");
 
 export class ImageService{
     private images:ImageList
 
 
+    /**
+    * An Image Service is to store image ids with names so you don't have to remember all ids every time.
+    * 
+    * Since it not saves the images to a global value (yet), it should be identified in a module and imported from there in every use.
+    */
     constructor(){
         this.images = {}
     }
@@ -63,4 +63,7 @@ export class ImageService{
     }
 }
 
+/**
+ * Stores the images of a {@link ImageService}
+ */
 export type ImageList = {[any:string]:string}
