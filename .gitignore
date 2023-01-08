@@ -1,9 +1,0 @@
-/node_modules
-/out
-/include
-*.tsbuildinfo
-/.vscode
-/*.tgz
-/*.eslintrc
-/*.gitignore
-/*.npmrc
