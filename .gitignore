@@ -4,3 +4,6 @@
 *.tsbuildinfo
 /.vscode
 *.tgz
+*.eslintrc
+*.gitignore
+*.npmrc
