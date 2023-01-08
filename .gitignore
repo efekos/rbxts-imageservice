@@ -2,4 +2,5 @@
 /out
 /*.eslintrc
 /*.npmrc
+/.vscode
 /*.tgz
