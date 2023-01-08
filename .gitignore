@@ -3,7 +3,7 @@
 /include
 *.tsbuildinfo
 /.vscode
-*.tgz
-*.eslintrc
-*.gitignore
-*.npmrc
+/*.tgz
+/*.eslintrc
+/*.gitignore
+/*.npmrc
