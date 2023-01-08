@@ -4,7 +4,7 @@
   "description": "A lightweight module to store image ids.",
   "main": "out/init.lua",
   "scripts": {
-    "build": "rbxtsc",
+    "build": "rbxtsc build",
     "watch": "rbxtsc -w",
     "prepublishOnly": "npm run build"
   },
